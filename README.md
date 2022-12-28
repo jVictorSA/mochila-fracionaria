@@ -1,5 +1,5 @@
 # mochila-fracionaria
-Algoritmo genético para resolver o problema da mochila facionária
+Algoritmo genético para resolver o problema da mochila fracionária
 
 Rode o código <code>mochila_fracionaria.py</code> para executar o programa
 
