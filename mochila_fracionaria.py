@@ -2,7 +2,7 @@ import Item
 import AlgGenetico
 
 if __name__ == '__main__':
-    print("\nALGORITMO GENÉTICO PARA RESOLVER O PROBLEMA DA MOCHILA\n")
+    print("\n\tALGORITMO GENÉTICO PARA RESOLVER O PROBLEMA DA MOCHILA FRACIONÁRIA\n")
     geracoes = 10
     capacidade = 10
     popMax = 12
@@ -16,15 +16,15 @@ if __name__ == '__main__':
 
     usando = True
     while usando:
-        print("Digite 1 para ver a lista de itens pré-selecionados para o problema")
-        print("Digite 2 para inserir um item na lista de itens do problema")
-        print("Digite 3 para alterar a prioridade de um item na lista")
-        print("Digite 4 encontrar uma solução para o problema")
-        print("Digite 5 para alterar o numero de gerações máxima do algoritmo genético")
-        print("Digite 6 para alterar o numero de cromossomos da população do algoritmo genético")
-        print("Digite 7 para alterar a capacidade das mochilas do problema")
-        print("Digite 8 para ver a configuração atual do algoritmo genético")
-        print("Digite 9 para sair")
+        print("\tDigite 1 para ver a lista de itens pré-selecionados para o problema")
+        print("\tDigite 2 para inserir um item na lista de itens do problema")
+        print("\tDigite 3 para alterar a prioridade de um item na lista")
+        print("\tDigite 4 encontrar uma solução para o problema")
+        print("\tDigite 5 para alterar o numero de gerações máxima do algoritmo genético")
+        print("\tDigite 6 para alterar o numero de cromossomos da população do algoritmo genético")
+        print("\tDigite 7 para alterar a capacidade das mochilas do problema")
+        print("\tDigite 8 para ver a configuração atual do algoritmo genético")
+        print("\tDigite 9 para sair")
         opcao = int(input())
         
         if opcao == 1:
